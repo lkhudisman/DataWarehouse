@@ -1,0 +1,19 @@
+Table Comparison between MSSQL, Postgres, and MySQL databases
+
+When you have data that gets synced from one database to the other it is helpful to verify if fields are being transferred correctly. 
+That is where these Excel spreadsheets come in.
+
+Setup:
+
+Create ODBC connections to the databases on your system
+Open Excel spreadsheet
+Enable Micros execution
+On "tables" tab enter data for comparison:
+	Tables to compare
+	Run "y/n" - this will determine which tables to compare
+	Database names
+	Keys to use in comparing data - leave blank the rest if you only have one
+	"Select" query to get data you want to compare
+Run Micros
+
+ENJOY!
